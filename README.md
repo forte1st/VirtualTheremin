@@ -1,7 +1,7 @@
 # VirtualTheremin
 
 ## 概要
-Oculus Touch等を用いてバーチャル空間で演奏できるテルミンのシミュレータです。Unity5以上対応
+Oculus Touch等を用いてバーチャル空間で演奏できるテルミンのシミュレータです。Unity2018で動作確認（少し前のバージョンでも多分動きます）
 
 ## 利用規約
 「大田マト」のクレジット表記（チャンネルまたは動画へのリンクもあると嬉しいです）をしていただければ、
@@ -15,12 +15,12 @@ https://www.youtube.com/channel/UCY-rzz8F3xdJ9NS3Y5iAGjw
 ## 利用方法
 1. VirtualTheremin.unitypackageをダウンロード（ファイル名をクリックしてから画面右のDownloadボタンを押してください）
 2. ダウンロードしたunitypackageをインポート  
-3. Theremin.prefabをシーンに設置  
-4. インスペクタのvolumeHandとpitchHandに、左手と右手に対応するGameObject（例えばOculus Utilities for Unityを使用している場合はLeftHandAnchorとRightHandAnchor）をアタッチ
+3. ScenesフォルダのSample.unityを開く  
+4. シーンに配置されているLeftHandとRightHandを動かすと音が変化するはずです。これらが右手と左手の動きに連動するようにしてください（Oculus Utilities for Unityを使用している場合、LeftHandをLeftHandAnchorの子に、RightHandをRightHandAnchorの子にする）
 
-音量操作：volumeHandを上に上げるほど音量が大きくなります。本体より下の場合は無音になります。  
-ピッチ操作：pitchHandとピッチアンテナの距離が小さいほど音が高くなります。  
-音色：Theremin.prefabのAudioSourceにアタッチされているwavファイルを差し替えることで音色を変更できます。  
+音量操作：LeftHandを上に上げるほど音量が大きくなります。本体より下の場合は無音になります。  
+ピッチ操作：RightHandとピッチアンテナの距離が小さいほど音が高くなります。  
+音色：ThereminのAudioSourceにアタッチされているwavファイルを差し替えることで音色を変更できます。  
 
 利用方法に関してご不明な点がございましたらお気軽にtwitterでご連絡ください。  
 https://twitter.com/ootamato
