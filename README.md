@@ -13,13 +13,16 @@ Oculus Touch等を用いてバーチャル空間で演奏できるテルミン�
 https://www.youtube.com/channel/UCY-rzz8F3xdJ9NS3Y5iAGjw
 
 ## 利用方法
-1. VirtualTheremin.unitypackageをダウンロード（ファイル名をクリックしてから画面右のDownloadボタンを押してください）
-2. ダウンロードしたunitypackageをインポート  
+1. VirtualTheremin.unitypackageをダウンロード  
+ファイル名をクリックしてから画面右のDownloadボタンを押してください。  
+2. ダウンロードしたunitypackageをインポート  
 3. ScenesフォルダのSample.unityを開く  
-4. シーンに配置されているLeftHandとRightHandを動かすと音が変化するはずです。これらが右手と左手の動きに連動するようにしてください（Oculus Utilities for Unityを使用している場合、LeftHandをLeftHandAnchorの子に、RightHandをRightHandAnchorの子にする）
+シーンに配置されているLeftHandとRightHandを動かすと音が変化するはずです。
+4. 右手と左手を連動させる  
+Oculus Utilities for Unityを使用している場合、LeftHandをLeftHandAnchorの子に、RightHandをRightHandAnchorの子にしてください。  
 
 音量操作：LeftHandを上に上げるほど音量が大きくなります。本体より下の場合は無音になります。  
-ピッチ操作：RightHandとピッチアンテナの距離が小さいほど音が高くなります。  
+ピッチ操作：RightHandとピッチアンテナ（縦のアンテナ）の距離が小さいほど音が高くなります。  
 音色：ThereminのAudioSourceにアタッチされているwavファイルを差し替えることで音色を変更できます。  
 
 利用方法に関してご不明な点がございましたらお気軽にtwitterでご連絡ください。  
