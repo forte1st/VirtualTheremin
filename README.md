@@ -15,11 +15,14 @@ https://www.youtube.com/channel/UCY-rzz8F3xdJ9NS3Y5iAGjw
 ## 利用方法
 1. VirtualTheremin.unitypackageをダウンロード  
 ファイル名をクリックしてから画面右のDownloadボタンを押してください。  
+
 2. ダウンロードしたunitypackageをインポート  
+
 3. ScenesフォルダのSample.unityを開く  
-シーンに配置されているLeftHandとRightHandを動かすと音が変化するはずです。
+シーンに配置されているLeftHandとRightHandを動かすと音が変化するはずです。  
+
 4. 右手と左手を連動させる  
-Oculus Utilities for Unityを使用している場合、LeftHandをLeftHandAnchorの子に、RightHandをRightHandAnchorの子にしてください。  
+Oculus Utilities for Unityを使用する場合、OVRCameraRigをシーンに配置して、LeftHandとRightHandをそれぞれLeftHandAnchorとRightHandAnchorの子にしてください。  
 
 音量操作：LeftHandを上に上げるほど音量が大きくなります。本体より下の場合は無音になります。  
 ピッチ操作：RightHandとピッチアンテナ（縦のアンテナ）の距離が小さいほど音が高くなります。  
