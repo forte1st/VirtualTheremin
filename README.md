@@ -30,3 +30,8 @@ Oculus Utilities for Unityを使用する場合、OVRCameraRigをシーンに配
 
 利用方法に関してご不明な点がございましたらお気軽にtwitterでご連絡ください。  
 https://twitter.com/ootamato
+
+## 更新履歴
+2018/09/18　ver.2.0　サンプルシーン追加  
+2018/03/24　ver.1.1　目盛表示機能追加  
+2018/03/20　ver.1.0　公開
